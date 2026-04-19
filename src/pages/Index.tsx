@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Authority from "@/components/Authority";
+import Rules from "@/components/Rules";
 import Problems from "@/components/Problems";
 import Services from "@/components/Services";
 import HowItWorks from "@/components/HowItWorks";
@@ -19,6 +20,7 @@ export default function Index() {
       <Header />
       <Hero />
       <Authority />
+      <Rules />
       <Problems />
       <Services />
       <HowItWorks />

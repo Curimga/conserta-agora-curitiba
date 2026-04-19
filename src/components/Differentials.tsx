@@ -1,10 +1,10 @@
-import { DollarSign, FileCheck, Headphones, Award } from "lucide-react";
+import { Award, FileCheck, Eye, Wrench } from "lucide-react";
 
 const diffs = [
-  { icon: DollarSign, title: "Mais barato que comprar outro", desc: "Economize consertando seu micro-ondas" },
-  { icon: FileCheck, title: "Orçamento sem compromisso", desc: "Avaliamos seu aparelho gratuitamente" },
-  { icon: Headphones, title: "Atendimento direto e rápido", desc: "Sem burocracia, pelo WhatsApp" },
-  { icon: Award, title: "Experiência desde 2000", desc: "Mais de 20 anos no mercado" },
+  { icon: Award, title: "Mais de 20 anos de experiência", desc: "Atuando em Curitiba desde o ano 2000" },
+  { icon: FileCheck, title: "Orçamento sem compromisso", desc: "Avaliação na loja sem custo se não aprovar" },
+  { icon: Eye, title: "Transparência total", desc: "Diagnóstico claro e honesto, sem surpresas" },
+  { icon: Wrench, title: "Serviço especializado", desc: "Foco exclusivo em conserto de micro-ondas" },
 ];
 
 export default function Differentials() {
