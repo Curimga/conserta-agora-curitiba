@@ -1,10 +1,10 @@
-import { MessageCircle, Camera, FileText, Zap } from "lucide-react";
+import { Store, Search, FileText, CheckCircle2 } from "lucide-react";
 
 const steps = [
-  { icon: MessageCircle, title: "Chame no WhatsApp", desc: "Envie uma mensagem rápida" },
-  { icon: Camera, title: "Envie foto do aparelho", desc: "Para um diagnóstico inicial" },
-  { icon: FileText, title: "Receba o orçamento", desc: "Sem compromisso" },
-  { icon: Zap, title: "Conserto rápido", desc: "Seu micro-ondas volta a funcionar" },
+  { icon: Store, title: "Leve até a loja", desc: "Traga seu micro-ondas em nossa oficina em Curitiba" },
+  { icon: Search, title: "Análise técnica", desc: "Nossos técnicos avaliam o aparelho com cuidado" },
+  { icon: FileText, title: "Orçamento informado", desc: "Você recebe o orçamento detalhado e transparente" },
+  { icon: CheckCircle2, title: "Você decide", desc: "Se não aprovar, não paga nada pela avaliação" },
 ];
 
 export default function HowItWorks() {
@@ -12,6 +12,9 @@ export default function HowItWorks() {
     <section id="como-funciona" className="py-16 bg-background">
       <div className="container text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground">Como Funciona</h2>
+        <p className="mt-3 text-muted-foreground max-w-xl mx-auto">
+          Um processo simples, transparente e sem compromisso.
+        </p>
         <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-4 gap-8">
           {steps.map((s, i) => (
             <div key={s.title} className="flex flex-col items-center">

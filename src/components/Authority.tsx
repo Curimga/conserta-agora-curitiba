@@ -1,10 +1,10 @@
 import { CheckCircle2 } from "lucide-react";
 
 const items = [
+  "Desde 2000",
   "Técnicos experientes",
-  "Peças originais",
-  "Atendimento rápido",
-  "Serviço confiável",
+  "Peças de qualidade",
+  "Atendimento confiável",
 ];
 
 export default function Authority() {
@@ -12,7 +12,7 @@ export default function Authority() {
     <section className="py-16 bg-surface">
       <div className="container text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-          Desde 2000 consertando micro-ondas em Curitiba
+          Mais de duas décadas consertando micro-ondas em Curitiba
         </h2>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           {items.map((item) => (
