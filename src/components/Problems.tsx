@@ -1,5 +1,5 @@
 import { AlertTriangle } from "lucide-react";
-import microwaveImg from "@/assets/microwave-open.jpg";
+import microwaveImg from "@/assets/real/foto2.jpg";
 
 const problems = [
   "Micro-ondas não esquenta",
@@ -15,9 +15,9 @@ export default function Problems() {
         <div>
           <img
             src={microwaveImg}
-            alt="Micro-ondas aberto em manutenção na oficina"
+            alt="Micro-ondas aberto na bancada de manutenção"
             width={1280}
-            height={800}
+            height={720}
             loading="lazy"
             className="rounded-2xl shadow-xl w-full object-cover"
           />
