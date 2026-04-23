@@ -1,6 +1,6 @@
 import { MessageCircle, Store } from "lucide-react";
 import { whatsappLink } from "@/lib/whatsapp";
-import heroImg from "@/assets/hero-technician.jpg";
+import heroImg from "@/assets/real/foto1.jpg";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
             <span className="text-whatsapp">Consertamos com qualidade e transparência</span>
           </h1>
           <p className="mt-4 text-primary-foreground/70 text-lg md:text-xl">
-            Mais de 20 anos de experiência em Curitiba.
+            Mais de 20 anos de experiência em Curitiba. Peças originais e preço justo.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="animate-fade-up-delay flex justify-center">
           <img
             src={heroImg}
-            alt="Técnico consertando micro-ondas em oficina especializada"
+            alt="Técnico da AJJ consertando micro-ondas em Curitiba"
             width={1280}
             height={720}
             className="rounded-2xl shadow-2xl w-full max-w-lg object-cover"
