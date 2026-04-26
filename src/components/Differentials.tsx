@@ -11,7 +11,9 @@ export default function Differentials() {
   return (
     <section className="py-16 bg-primary">
       <div className="container text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground">Por que escolher a AJJ?</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground">
+          Por que escolher a AJJ para o conserto do seu microondas
+        </h2>
         <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {diffs.map((d) => (
             <div key={d.title} className="bg-primary-foreground/10 backdrop-blur rounded-xl p-6 hover:bg-primary-foreground/15 transition-colors">

@@ -12,7 +12,9 @@ export default function Reviews() {
   return (
     <section id="avaliacoes" className="py-16 bg-surface">
       <div className="container text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground">O que nossos clientes dizem</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+          Avaliações de clientes que consertaram o microondas conosco
+        </h2>
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((r) => (
             <div key={r.name} className="bg-background rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow text-left">

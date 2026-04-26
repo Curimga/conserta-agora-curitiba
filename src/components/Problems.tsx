@@ -15,7 +15,7 @@ export default function Problems() {
         <div>
           <img
             src={microwaveImg}
-            alt="Micro-ondas aberto na bancada de manutenção"
+            alt="Microondas com defeito em manutenção na assistência técnica de Curitiba"
             width={1280}
             height={720}
             loading="lazy"
@@ -24,7 +24,7 @@ export default function Problems() {
         </div>
         <div>
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-            Seu micro-ondas apresenta algum desses problemas?
+            Problemas comuns que consertamos no seu microondas em Curitiba
           </h2>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {problems.map((p) => (

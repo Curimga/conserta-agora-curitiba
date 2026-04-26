@@ -9,7 +9,7 @@ export default function About() {
         <div>
           <img
             src={aboutImg}
-            alt="Bancada de trabalho da AJJ Conserto de Microondas"
+            alt="Bancada de conserto de microondas da AJJ em Curitiba"
             width={1745}
             height={540}
             loading="lazy"
@@ -21,7 +21,7 @@ export default function About() {
             Sobre o nosso negócio
           </span>
           <h2 className="mt-4 text-2xl md:text-3xl font-bold text-foreground">
-            Esta é a nossa história
+            Quem somos: a AJJ, referência em conserto de microondas no Portão
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
             A <strong className="text-foreground">AJJ Conserto de Microondas</strong> foi fundada em{" "}

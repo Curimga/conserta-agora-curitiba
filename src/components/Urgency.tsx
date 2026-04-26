@@ -7,7 +7,7 @@ export default function Urgency() {
         <div className="flex items-center justify-center gap-3 text-whatsapp-foreground">
           <ShieldCheck size={28} />
           <h2 className="text-2xl md:text-3xl font-extrabold">
-            Avaliação sem compromisso na loja
+            Avaliação sem compromisso na nossa loja em Curitiba
           </h2>
         </div>
         <div className="mt-3 flex items-center justify-center gap-2 text-whatsapp-foreground/90">

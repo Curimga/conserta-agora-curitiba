@@ -6,8 +6,8 @@ export default function CtaFinal() {
     <section className="py-20 bg-primary">
       <div className="container text-center">
         <h2 className="text-2xl md:text-4xl font-extrabold text-primary-foreground leading-tight">
-          Traga seu micro-ondas para{" "}
-          <span className="text-whatsapp">avaliação sem compromisso</span>
+          Traga seu microondas para{" "}
+          <span className="text-whatsapp">avaliação em Curitiba</span> — sem compromisso
         </h2>
         <p className="mt-4 text-primary-foreground/70 text-lg">
           Atendimento somente na loja física em Curitiba.

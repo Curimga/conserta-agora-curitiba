@@ -5,7 +5,9 @@ export default function Contact() {
   return (
     <section id="contato" className="py-16 bg-surface">
       <div className="container text-center max-w-lg">
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Entre em contato</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+          Entre em contato com a AJJ Conserto de Microondas
+        </h2>
         <p className="mt-3 text-muted-foreground">
           Gostaria de mais informações sobre nossos consertos? Fale conosco — orçamento sem compromisso, com preço justo.
         </p>

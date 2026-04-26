@@ -8,11 +8,10 @@ export default function Hero() {
       <div className="container grid md:grid-cols-2 gap-8 items-center py-16 md:py-24">
         <div className="animate-fade-up">
           <h1 className="text-3xl md:text-5xl font-extrabold text-primary-foreground leading-tight">
-            Seu micro-ondas parou?{" "}
-            <span className="text-whatsapp">Consertamos com qualidade e transparência</span>
+            <span className="text-whatsapp">Conserto de Microondas em Curitiba</span> com qualidade e transparência desde 2000
           </h1>
           <p className="mt-4 text-primary-foreground/70 text-lg md:text-xl">
-            Mais de 20 anos de experiência em Curitiba. Peças originais e preço justo.
+            Mais de 20 anos consertando micro-ondas de todas as marcas no bairro Portão. Peças originais, técnicos experientes e orçamento somente na loja física.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <a
