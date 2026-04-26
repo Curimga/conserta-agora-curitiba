@@ -11,7 +11,9 @@ export default function HowItWorks() {
   return (
     <section id="como-funciona" className="py-16 bg-background">
       <div className="container text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Como Funciona</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+          Como funciona o conserto do seu microondas passo a passo
+        </h2>
         <p className="mt-3 text-muted-foreground max-w-xl mx-auto">
           Um processo simples, transparente e sem compromisso.
         </p>

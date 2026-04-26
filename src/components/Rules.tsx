@@ -37,7 +37,7 @@ export default function Rules() {
             Atenção — Como trabalhamos
           </span>
           <h2 className="mt-4 text-2xl md:text-3xl font-bold text-foreground">
-            Transparência total desde o primeiro contato
+            Como funciona o nosso atendimento de conserto de microondas
           </h2>
           <p className="mt-3 text-muted-foreground">
             Para oferecer o melhor serviço com honestidade, seguimos algumas regras importantes:

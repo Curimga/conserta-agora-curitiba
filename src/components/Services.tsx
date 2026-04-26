@@ -6,17 +6,17 @@ import { ClipboardCheck } from "lucide-react";
 const services = [
   {
     img: srv1,
-    title: "Manutenção de forno de micro-ondas",
+    title: "Manutenção e revisão de forno de microondas",
     desc: "Diagnóstico completo e reparo profissional do seu aparelho. Não se preocupe — cuidamos de tudo.",
   },
   {
     img: srv2,
-    title: "Conserto de porta de micro-ondas",
+    title: "Conserto de porta, trava e dobradiça de microondas",
     desc: "Travas, dobradiças e vedação. Consertos de alta qualidade para sua segurança.",
   },
   {
     img: srv3,
-    title: "Reposição de peças originais",
+    title: "Troca de peças originais para microondas",
     desc: "Peças originais com garantia. Ao seu dispor para todos os modelos do mercado.",
   },
 ];
@@ -26,7 +26,9 @@ export default function Services() {
     <section id="servicos" className="py-16 bg-surface">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground">Serviços de reparo</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+            Serviços de conserto e manutenção de microondas
+          </h2>
           <p className="mt-3 text-muted-foreground">Estamos aqui para ajudar — confira o que fazemos:</p>
         </div>
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

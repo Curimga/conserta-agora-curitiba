@@ -12,7 +12,7 @@ export default function Authority() {
     <section className="py-16 bg-surface">
       <div className="container text-center">
         <h2 className="text-2xl md:text-3xl font-bold text-foreground">
-          Mais de duas décadas consertando micro-ondas em Curitiba
+          Assistência técnica de microondas em Curitiba há mais de 20 anos
         </h2>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6">
           {items.map((item) => (

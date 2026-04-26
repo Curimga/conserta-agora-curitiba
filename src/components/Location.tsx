@@ -8,7 +8,7 @@ export default function Location() {
         <div>
           <img
             src={workshopImg}
-            alt="Loja AJJ Conserto de Microondas em Curitiba"
+            alt="Loja AJJ Conserto de Microondas no Portão, Curitiba"
             width={1280}
             height={720}
             loading="lazy"
@@ -17,7 +17,9 @@ export default function Location() {
         </div>
         <div>
           <MapPin className="text-primary" size={40} />
-          <h2 className="mt-4 text-2xl md:text-3xl font-bold text-foreground">Nossa Loja</h2>
+          <h2 className="mt-4 text-2xl md:text-3xl font-bold text-foreground">
+            Onde estamos: oficina de conserto de microondas no Portão, Curitiba
+          </h2>
           <p className="mt-3 text-foreground text-lg font-semibold">Curitiba — PR</p>
           <p className="mt-2 text-muted-foreground">
             Rua Carlos Blanck, 315 — Conjunto Phoenix<br />
