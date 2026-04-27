@@ -1,11 +1,6 @@
-import { Store, MessageSquareOff, Home, Truck, ShieldCheck } from "lucide-react";
+import { Store, Home, Truck, ShieldCheck } from "lucide-react";
 
 const rules = [
-  {
-    icon: MessageSquareOff,
-    title: "Não fazemos orçamento pelo WhatsApp",
-    desc: "Cada aparelho precisa ser avaliado pelo técnico para garantir um diagnóstico correto.",
-  },
   {
     icon: Store,
     title: "Atendimento somente na loja física",
@@ -44,7 +39,7 @@ export default function Rules() {
           </p>
         </div>
 
-        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-10 grid md:grid-cols-2 lg:grid-cols-4 gap-5">
           {rules.map((r) => (
             <div
               key={r.title}
