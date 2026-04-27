@@ -1,11 +1,6 @@
-import { Store, MessageSquareOff, Home, Truck, ShieldCheck } from "lucide-react";
+import { Store, Home, Truck, ShieldCheck } from "lucide-react";
 
 const rules = [
-  {
-    icon: MessageSquareOff,
-    title: "Não fazemos orçamento pelo WhatsApp",
-    desc: "Cada aparelho precisa ser avaliado pelo técnico para garantir um diagnóstico correto.",
-  },
   {
     icon: Store,
     title: "Atendimento somente na loja física",
