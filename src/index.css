@@ -7,25 +7,25 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 213 60% 14%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 60% 14%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 60% 14%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 213 68% 14%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 0 0% 8%;
+    --primary-foreground: 48 100% 50%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 213 60% 14%;
+    --secondary: 48 100% 50%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 213 10% 46%;
+    --muted: 48 30% 95%;
+    --muted-foreground: 0 0% 35%;
 
-    --accent: 0 0% 96%;
-    --accent-foreground: 213 60% 14%;
+    --accent: 48 100% 50%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -34,11 +34,11 @@
     --whatsapp-foreground: 0 0% 100%;
     --whatsapp-hover: 142 70% 42%;
 
-    --surface: 0 0% 96%;
+    --surface: 48 100% 96%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 213 68% 14%;
+    --border: 48 30% 88%;
+    --input: 48 30% 88%;
+    --ring: 48 100% 50%;
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
