@@ -30,9 +30,13 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --whatsapp: 142 70% 49%;
-    --whatsapp-foreground: 0 0% 100%;
-    --whatsapp-hover: 142 70% 42%;
+    --whatsapp: 48 100% 50%;
+    --whatsapp-foreground: 0 0% 8%;
+    --whatsapp-hover: 48 100% 45%;
+
+    --whatsapp-green: 142 70% 49%;
+    --whatsapp-green-foreground: 0 0% 100%;
+    --whatsapp-green-hover: 142 70% 42%;
 
     --surface: 48 100% 96%;
 
@@ -85,6 +89,6 @@
 }
 
 @keyframes pulseWa {
-  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 hsl(142 70% 49% / 0.4); }
-  50% { transform: scale(1.05); box-shadow: 0 0 0 12px hsl(142 70% 49% / 0); }
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 hsl(var(--whatsapp-green) / 0.4); }
+  50% { transform: scale(1.05); box-shadow: 0 0 0 12px hsl(var(--whatsapp-green) / 0); }
 }

@@ -55,6 +55,11 @@ export default {
           foreground: "hsl(var(--whatsapp-foreground))",
           hover: "hsl(var(--whatsapp-hover))",
         },
+        "whatsapp-green": {
+          DEFAULT: "hsl(var(--whatsapp-green))",
+          foreground: "hsl(var(--whatsapp-green-foreground))",
+          hover: "hsl(var(--whatsapp-green-hover))",
+        },
         surface: "hsl(var(--surface))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
