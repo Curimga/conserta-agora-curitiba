@@ -89,6 +89,6 @@
 }
 
 @keyframes pulseWa {
-  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 hsl(142 70% 49% / 0.4); }
-  50% { transform: scale(1.05); box-shadow: 0 0 0 12px hsl(142 70% 49% / 0); }
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 hsl(var(--whatsapp-green) / 0.4); }
+  50% { transform: scale(1.05); box-shadow: 0 0 0 12px hsl(var(--whatsapp-green) / 0); }
 }
