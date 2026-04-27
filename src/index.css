@@ -30,9 +30,13 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --whatsapp: 142 70% 49%;
-    --whatsapp-foreground: 0 0% 100%;
-    --whatsapp-hover: 142 70% 42%;
+    --whatsapp: 48 100% 50%;
+    --whatsapp-foreground: 0 0% 8%;
+    --whatsapp-hover: 48 100% 45%;
+
+    --whatsapp-green: 142 70% 49%;
+    --whatsapp-green-foreground: 0 0% 100%;
+    --whatsapp-green-hover: 142 70% 42%;
 
     --surface: 48 100% 96%;
 
